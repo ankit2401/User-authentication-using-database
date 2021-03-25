@@ -9,7 +9,7 @@ app.use(flash());
 
 var mysql = require('mysql');
 const config = mysql.createConnection({
-	host: 'localhost',
+//	host: 'localhost',
 	user: 'root',
 	password: 'root',
 	database: 'ankit'
