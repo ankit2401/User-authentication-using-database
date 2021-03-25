@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<title> Login page </title>
+	</head>
+	<style>
+body{
+	background-color: lightblue;
+}
+h1{
+	color: blue;
+	margin-top: 130px;
+	margin-bottom: -140px;
+	margin-left: 550px;
+}
+label[for=username]{
+	color: red;
+	margin-top: 150px;
+	margin-left: 500px;
+	margin-bottom: 200px;
+	position: absolute;
+}
+label[for=password]{
+	color: red;
+	margin-top: -195px;
+	margin-left: 500px;
+	margin-bottom: 150px;
+	position: absolute;
+}
+input[type=text]{
+	width: 20%;
+	margin-top: 152px;
+	margin-bottom: 200px;
+	margin-right: 300px;
+	margin-left: 500px;
+	text-align: left;
+}
+input[type=password]{
+	width: 20%;
+	margin-top: -193px;
+	margin-bottom: 200px;
+	margin-right: 300px;
+	margin-left: 500px;
+	text-align: left;
+}
+button[type=login]{
+	width: 10%;
+	background-color: green;
+	margin-top: -190px;
+	margin-left: 570px;
+}
+input[type=button]{
+	width=10%;
+	background-color: green;
+	margin-top: -150px;
+	margin-left: 500px;
+}
+
+	</style>
+
+	<body>
+		<h1> User Login </h1>
+
+		<form action="ankit" method="POST">
+			<div>
+				<label for="username"><b>Username</b></label><br>
+				<input type="text" placeholder="Enter Username" name="username" required><br><br>
+
+				<label for="password"><b>Password</b></label><br>
+				<input type="password" placeholder="Enter Password" name="password" required><br><br>
+
+				<button type="login">Login</button><br>
+				<input type="button" onclick="location.href='/sign';" value="Create account">
+			</div>
+		</form>
+	</body>
+
+</html>
+
