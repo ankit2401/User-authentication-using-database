@@ -48,11 +48,19 @@ button[type=login]{
 	margin-top: -190px;
 	margin-left: 570px;
 }
-input[type=button]{
-	width=10%;
+button[type=button1]{
+	width: 20%;
 	background-color: green;
+	text-align: center;
 	margin-top: -150px;
 	margin-left: 500px;
+}
+button[type=button2]{
+	width: 10%;
+	background-color: green;
+	text-align: center;
+	margin-top: -110px;
+	margin-left: 570px;
 }
 
 	</style>
@@ -69,7 +77,8 @@ input[type=button]{
 				<input type="password" placeholder="Enter Password" name="password" required><br><br>
 
 				<button type="login">Login</button><br>
-				<input type="button" onclick="location.href='/sign';" value="Create account">
+				<button type="button1" onclick="location.href='/sign';">Create account</button>
+				<button type="button2" onclick="location.href='/forgot';">Forgot password</button>
 			</div>
 		</form>
 	</body>

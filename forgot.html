@@ -1,0 +1,50 @@
+<html>
+<style>
+body{
+	background-color: lightblue;
+}
+h1{
+	color: blue;
+	margin-top: 180px;
+	margin-left: 500px;
+}
+label[for=email]{
+	margin-top: 50px;
+	margin-left: 500PX;
+}
+label[for=password]{
+	margin-top: 30px;
+	margin-left: 500px;
+	position: absolute;
+}
+input[type=text]{
+	width: 20%;
+	margin-top: 2px;
+	margin-left: 500px;
+	text-align: left;
+}
+input[type=password]{
+	width: 20%;
+	margin-top: 32px;
+	margin-left: 500px;
+	text-align: left;
+}
+button[type=submit]{
+	width: 10%;
+	background-color: green;
+	margin-top: 20px;
+	margin-left: 570px;
+	text-align: center;
+}
+</style>
+	<body>
+		<h1> create New Password</h1>
+		<form action="forgot" method="POST">
+			<label for="email"><b>Enter email-id</b></label><br>
+			<input type="text" placeholder="enter your email" name="email" required><br>
+			<label for="password"><b>Create password</b></label><br>
+			<input type="password" placeholder="create a password" name="password" required><br>
+			<button type="submit">save</button>
+		</form>
+	</body>
+</html>
